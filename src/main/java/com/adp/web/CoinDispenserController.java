@@ -37,6 +37,12 @@ public class CoinDispenserController {
 		}
 
 	}
+	
+	/**
+	 * This will reset amount
+	 * @param coins
+	 * @return
+	 */
 
 	@RequestMapping(value ="/coinslimit",method = RequestMethod.POST)
 	@ResponseBody
